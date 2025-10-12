@@ -22,7 +22,7 @@ It fetches complete WHOIS data, including registrar, registrant, IP addresses, a
 ## 💬 Usage
 
 1. Open the bot on Telegram:  
-   👉 [@devzoop](https://t.me/devzoop)
+   👉 [@WHOISCheckerRobot](https://t.me/WHOISCheckerRobot)
 
 2. Send any domain name (e.g. `example.com`)
 
@@ -33,16 +33,25 @@ It fetches complete WHOIS data, including registrar, registrant, IP addresses, a
 ## 🧩 Example Output
 
 🔍 Domain: example.com
+
 📅 Created: 1995-08-13
+
 ♻️ Updated: 2024-07-22
+
 ⌛ Expires: 2030-08-13
+
 🏢 Registrar: Example Registrar, Inc (USA)
+
 🏠 Registrant: Example Organization (California, US)
+
 🌐 IPv4: 93.184.216.34
+
 🌀 IPv6: 2606:2800:220:1:248:1893:25c8:1946
+
 🧭 Name Servers:
 
 ns1.example.net
+
 ns2.example.net
 
 📦 Full WHOIS JSON available!
@@ -51,9 +60,8 @@ ns2.example.net
 
 ## 🛠️ Tech Stack
 
-- **Language:** Node.js  
-- **Framework:** [Telegraf.js](https://telegraf.js.org)  
-- **WHOIS API:** RDAP / WHOIS Lookup APIs  
+- **Language:** PHP   
+- **WHOIS API:** RDAP WHOIS Lookup APIs  
 - **Database:** MySQL (optional for logging)
 
 ---
