@@ -1,4 +1,4 @@
-# 🌐 WHOIS Checker Bot
+# 🌐 WHOIS Checker Bot (currently not woring we will it update soon)
 
 A powerful **Telegram bot** that allows you to instantly check WHOIS information for any domain name — just by sending the domain to the bot.  
 It fetches complete WHOIS data, including registrar, registrant, IP addresses, and more.
