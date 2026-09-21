@@ -32,7 +32,7 @@ if (!preg_match('/^([a-z0-9-]+\.)+[a-z]{2,}$/', $domain)) {
 }
 
 // Fetch WHOIS from RDAP
-$rdap_url = "https://rdap.org/domain/" . urlencode($domain);
+$rdap_url = "https://rdap.nixiregistry.in/rdap/domain/" . urlencode($domain);
 $response = @file_get_contents($rdap_url);
 
 if (!$response) {
